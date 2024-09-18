@@ -221,6 +221,8 @@ main {
 
 /* portfolio project images */
 /* TODO: Add portfolio project images here using background images*/
+
+/* try to change these so that the images are in the html file with appropriate 'alt' text for SEO compliance */
 .run-buddy {
   background-image: url('../images/running.jpg');
   background-size: cover;
@@ -283,3 +285,12 @@ main {
 }
 
 /* TODO: add media query for a max-width of 768px */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .flex-container {
+    display: block;
+  }
+}
