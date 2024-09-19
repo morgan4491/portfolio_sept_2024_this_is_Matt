@@ -293,4 +293,9 @@ main {
   .flex-container {
     display: block;
   }
+
+  .flex-item {
+    min-height: 150px !important;
+    width: auto;
+  }
 }
